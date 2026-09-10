@@ -17,6 +17,12 @@ classifiers = [
 ]
 dependencies = []
 
+[project.urls]
+Homepage = "https://github.com/Annu-rai/alarm-clock-cli"
+Repository = "https://github.com/Annu-rai/alarm-clock-cli"
+Issues = "https://github.com/Annu-rai/alarm-clock-cli/issues"
+Changelog = "https://github.com/Annu-rai/alarm-clock-cli/blob/main/CHANGELOG.md"
+
 [project.optional-dependencies]
 dev = ["pytest>=7"]
 
