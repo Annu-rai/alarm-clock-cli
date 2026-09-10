@@ -1,5 +1,6 @@
 # alarm — a command-line alarm clock
 
+[![CI](https://github.com/Annu-rai/alarm-clock-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/Annu-rai/alarm-clock-cli/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A small, dependency-free alarm clock for your terminal. Standard library only,
@@ -113,6 +114,10 @@ ring loop stops itself after ~2 minutes if nobody dismisses it.
 pip install -e ".[dev]"
 python -m pytest        # 65 tests, ~0.3s
 ```
+
+CI runs the suite on every push and pull request across Linux, macOS, and
+Windows on Python 3.9 / 3.11 / 3.13
+([`.github/workflows/ci.yml`](.github/workflows/ci.yml)).
 
 Layout: `timefmt` (parsing), `models` (Alarm + scheduling maths), `store` (JSON
 persistence), `sound` (the `Ringer` thread), `cli` (argparse + command handlers).
