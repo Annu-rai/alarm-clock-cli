@@ -1,5 +1,7 @@
 # alarm — a command-line alarm clock
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A small, dependency-free alarm clock for your terminal. Standard library only,
 cross-platform (Windows / macOS / Linux), no web UI, no database — alarms live in
 one human-readable JSON file.
@@ -116,3 +118,7 @@ Layout: `timefmt` (parsing), `models` (Alarm + scheduling maths), `store` (JSON
 persistence), `sound` (the `Ringer` thread), `cli` (argparse + command handlers).
 The parsing/scheduling core is pure and takes an injectable `now`, so it is
 tested without sleeping or making noise.
+
+## License
+
+[MIT](LICENSE) © Annu-rai
