@@ -45,16 +45,36 @@ When an alarm fires:
 
 ## Install
 
-Run it straight from the source tree with no install:
+### From a release (recommended)
+
+Install the latest tagged release straight from GitHub — no clone needed. This
+gives you the short `alarm` command:
+
+```console
+pip install "git+https://github.com/Annu-rai/alarm-clock-cli@v0.1.0"
+
+alarm --version        # alarm 0.1.0
+alarm set 07:30 -l "Wake up"
+```
+
+Use `@main` instead of `@v0.1.0` to track the development branch, or pick another
+tag from the [releases page](https://github.com/Annu-rai/alarm-clock-cli/releases).
+Prefer an isolated install? `pipx install "git+https://github.com/Annu-rai/alarm-clock-cli@v0.1.0"`.
+
+### From a source checkout
+
+```console
+git clone https://github.com/Annu-rai/alarm-clock-cli
+cd alarm-clock-cli
+pip install .          # then:  alarm set 07:30 -l "Wake up"
+```
+
+### No install
+
+Run it straight from the source tree:
 
 ```console
 python -m alarmclock <command>
-```
-
-Or install it to get the short `alarm` command:
-
-```console
-pip install .          # then:  alarm set 07:30 -l "Wake up"
 ```
 
 ## Commands
