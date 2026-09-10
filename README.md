@@ -1,6 +1,7 @@
 # alarm — a command-line alarm clock
 
 [![CI](https://github.com/Annu-rai/alarm-clock-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/Annu-rai/alarm-clock-cli/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/Annu-rai/alarm-clock-cli?sort=semver)](https://github.com/Annu-rai/alarm-clock-cli/releases/latest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A small, dependency-free alarm clock for your terminal. Standard library only,
