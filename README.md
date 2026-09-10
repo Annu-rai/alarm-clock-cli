@@ -7,7 +7,8 @@ A small, dependency-free alarm clock for your terminal. Standard library only,
 cross-platform (Windows / macOS / Linux), no web UI, no database — alarms live in
 one human-readable JSON file.
 
-See [`DESIGN.md`](DESIGN.md) for the requirements/design/plan write-up.
+See [`DESIGN.md`](DESIGN.md) for the requirements/design/plan write-up and
+[`CHANGELOG.md`](CHANGELOG.md) for release history.
 
 ## Quick start
 
