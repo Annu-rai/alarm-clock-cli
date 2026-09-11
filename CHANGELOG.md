@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-09-11
+
+### Changed
+
+- README: documented installing straight from a tagged release
+  (`pip install git+...@v0.1.0`), plus `pipx` alternative.
+- README: added a release-version badge.
+- Packaging: added `[project.urls]` (Repository, Issues, Changelog) to
+  `pyproject.toml` so they surface on PyPI-style project pages.
+
 ## [0.1.0] - 2026-09-10
 
 Initial release.
@@ -36,5 +46,6 @@ Initial release.
 - Standard-library-only runtime; `console_scripts` entry point `alarm`.
 - 65 tests; GitHub Actions CI across Linux/macOS/Windows on Python 3.9/3.11/3.13.
 
-[Unreleased]: https://github.com/Annu-rai/alarm-clock-cli/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/Annu-rai/alarm-clock-cli/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/Annu-rai/alarm-clock-cli/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/Annu-rai/alarm-clock-cli/releases/tag/v0.1.0
